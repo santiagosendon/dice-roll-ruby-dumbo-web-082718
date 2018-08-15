@@ -2,9 +2,9 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(rolls)
+def roll(range = 1,2,3,4,5,6)
 
-puts rolls = (1,2,3,4,5,6)
+puts range.rand 
 end
 
  
